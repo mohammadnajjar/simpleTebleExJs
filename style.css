@@ -1,0 +1,57 @@
+.container , .table-container{
+	margin: auto;
+	width: 90%;
+	margin-top: 5%;
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+	padding: 10px;
+	box-shadow: 0 0 7px #222;
+	text-align: center;
+}
+
+.table td, .table th{
+	border: 1px solid #3d84e6;
+	padding: 10px;
+	width: 25%;
+}
+
+.table tr:hover{
+	background-color: #aaa;
+	color: navy;
+	font-weight: bold;
+}
+
+.table .thead td {
+	background-color: #eee;
+	color: #3d84e6;
+	font-weight: bold;
+	text-align: center;
+	color: navy;
+	font-size: 1.4em;
+	text-shadow: 1px 1px 2px lightblue;
+}
+
+.table .thead .course-td{
+	text-align: left;
+	width: 75%;
+}
+
+.table .sub-tr{
+	color: #3d84e6;
+	display: none;
+}
+
+.container button{
+	color: navy;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.container legend{
+	color: navy;
+	font-weight: bold;
+	padding: 10px;
+}

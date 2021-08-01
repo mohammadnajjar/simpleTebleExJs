@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Tutorial </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript">
+		
+	</script>
+</head>
+
+<body onload="defineEvents()">
+
+
+	<div class="container">
+	<fieldset>
+	<legend>Control Panel</legend>
+		<button onclick="largeExpander(200)">
+			Large
+		</button>
+		<button onclick="largeExpander(100)">
+			Normal
+		</button>
+		<button onclick="largeExpander(50)">
+			Small
+		</button>
+		<button onclick="ExpandAll()">
+			Expand All
+		</button>
+		<button onclick="CollapseAll()">
+			Collapse All
+		</button>
+		</fieldset>
+	</div>
+
+<div class="table-container">
+<table class="table" id="mark-table">
+<tr class="thead" courseId="1">
+	<td  class="course-td" colspan="3">Arabic</td>
+	<td><span class="expander">&raquo;</span></td>
+</tr>
+
+<tr class="sub-tr" for="1">
+	<td>1</td>
+	<td>Rama</td>
+	<td>600</td>
+	<td>600</td>
+</tr>
+<tr class="sub-tr"  for="1">
+	<td>2</td>
+	<td>Laila</td>
+	<td>570</td>
+	<td>600</td>
+</tr>
+<tr class="sub-tr" for="1">
+	<td>3</td>
+	<td>Iman</td>
+	<td>540</td>
+	<td>600</td>
+</tr>
+<tr class="sub-tr" for="1">
+	<td>4</td>
+	<td>Ali</td>
+	<td>500</td>
+	<td>600</td>
+</tr>
+
+
+<tr class="thead" courseId="2">
+	<td class="course-td" colspan="3">English</td>
+	<td><span class="expander">&raquo;</span></td>
+</tr>
+<tr class="sub-tr" for="2">
+	<td>1</td>
+	<td>Rama</td>
+	<td>60</td>
+	<td>100</td>
+</tr>
+<tr class="sub-tr" for="2">
+	<td>2</td>
+	<td>Laila</td>
+	<td>75</td>
+	<td>100</td>
+</tr>
+<tr class="sub-tr" for="2">
+	<td>3</td>
+	<td>Iman</td>
+	<td>67</td>
+	<td>100</td>
+</tr>
+<tr class="sub-tr" for="2">
+	<td>4</td>
+	<td>Ali</td>
+	<td>50</td>
+	<td>100</td>
+</tr>
+
+<tr class="thead" courseId="3">
+	<td class="course-td" colspan="3">Math</td>
+	<td><span class="expander">&raquo;</span></td>
+</tr>
+<tr class="sub-tr" for="3">
+	<td>1</td>
+	<td>Rama</td>
+	<td>60</td>
+	<td>100</td>
+</tr>
+<tr class="sub-tr" for="3">
+	<td>2</td>
+	<td>Laila</td>
+	<td>75</td>
+	<td>100</td>
+</tr>
+<tr class="sub-tr" for="3">
+	<td>3</td>
+	<td>Iman</td>
+	<td>67</td>
+	<td>100</td>
+</tr>
+<tr class="sub-tr" for="3">
+	<td>4</td>
+	<td>Ali</td>
+	<td>50</td>
+	<td>100</td>
+</tr>
+
+</table>
+</div>
+	
+</body>
+</html>
